@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import { Canvas } from "react-three-fiber";
+import { OrbitControls } from "@react-three/drei";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { Shoe } from "./components/Shoe";
+
+// import Box from "./components/Box";
+import styled from "styled-components";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Container>
+    <div className="App" role="main">
+      shoe
+      <Canvas>
+        <OrbitControls/>
+<ambientLight intensity={0.5} />
+<directionalLight position={[-2,5,2]} intensity={1} />
+<pointLight position={[-5, 20, 10]} />
+
+<Shoe />
+      </Canvas>
+
+     
+   
+
     </div>
+    </Container>
   );
 }
 
 export default App;
+
+
+
+
+export const Container = styled.div`
+  
+Canvas{
+  height:100vh;
+  background-color:white;
+}
+.App{
+
+  
+}
+`;
+
