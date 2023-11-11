@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/threefibrejs/static/css/main.e6c13ad2.css",
+    "main.js": "/threefibrejs/static/js/main.2ec5ee6b.js",
+    "static/js/787.cda0a1bf.chunk.js": "/threefibrejs/static/js/787.cda0a1bf.chunk.js",
+    "index.html": "/threefibrejs/index.html",
+    "main.e6c13ad2.css.map": "/threefibrejs/static/css/main.e6c13ad2.css.map",
+    "main.2ec5ee6b.js.map": "/threefibrejs/static/js/main.2ec5ee6b.js.map",
+    "787.cda0a1bf.chunk.js.map": "/threefibrejs/static/js/787.cda0a1bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2ec5ee6b.js"
+  ]
+}
